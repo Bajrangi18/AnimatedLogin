@@ -1,0 +1,140 @@
+#input1 {
+  background-color: transparent; border-color: white; font-family: 'Montserrat', sans-serif;
+  font-size: 4.5vw;
+
+}
+#input2 {
+  background-color: transparent; border-color: white; font-family: 'Montserrat', sans-serif;
+  font-size: 4.5vw;
+}
+#buttonIn {
+   width: 45vw;
+    background-color: transparent; border-color: white; font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border-radius: 5vw;
+  font-size: 4.5vw;
+}
+#roadCont {
+  overflow-y: hidden;
+  background-image: url("main1.svg");
+  background-size: cover;
+  position: absolute;
+  top: 130vw;
+  height: 60vw;
+  width: 100vw;
+  /* position: absolute; */
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animate1 2.5s linear infinite;
+  z-index: 0;
+}
+
+#carCont {
+  overflow-y: hidden;
+  background-image: url("car.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 56vw;
+  top: 146vw;
+  height: 40vw;
+  width: 40vw;
+  z-index: 1;
+  transition: transform 1s ease-in;
+}
+#parkCont {
+  overflow-y: hidden;
+  background-image: url("park.svg");
+  background-size: cover;
+  position: absolute;
+  top: 130vw;
+  height: 60vw;
+  width: 100vw;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animate1 2.5s linear infinite;
+  z-index: 0;
+}
+@keyframes animate1
+{
+from {
+  background-position: 100% 0;
+
+}
+to {
+  background-position: 0 0;
+}
+}
+/*
+#tree1 {
+  overflow-y: hidden;
+  background-image: url("tree1.svg");
+  background-size: cover;
+  position: absolute;
+  top: 140vw;
+  height: 50vw;
+  width: 100vw;
+  position: absolute;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animate1 5s linear infinite;
+}
+
+@keyframes animate1
+{
+from {
+  background-position: 0 0;
+
+}
+to {
+  background-position: 100% 0;
+}
+}
+#tree2 {
+  overflow-y: hidden;
+  background-image: url("tree2.svg");
+  background-size: cover;
+  position: absolute;
+  top: 140vw;
+  height: 50vw;
+  width: 100vw;
+  position: absolute;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animate1 5s linear infinite;
+}
+
+@keyframes animate1
+{
+from {
+  background-position: 0 0;
+
+}
+to {
+  background-position: 100% 0;
+}
+}
+#tree3 {
+  overflow-y: hidden;
+  background-image: url("tree3.svg");
+  background-size: cover;
+  position: absolute;
+  top: 140vw;
+  height: 50vw;
+  width: 100vw;
+  position: absolute;
+  background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: animate1 5s linear infinite;
+}
+
+@keyframes animate1
+{
+from {
+  background-position: 0 0;
+
+}
+to {
+  background-position: 100% 0;
+}
+} */
